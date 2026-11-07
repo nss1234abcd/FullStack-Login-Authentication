@@ -1,0 +1,330 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2
+    );
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-card {
+    background: white;
+    width: 100%;
+    max-width: 420px;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+    background: #667eea;
+    color: white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid #ddd;
+    padding: 14px;
+    border-radius: 8px;
+    margin-bottom: 18px;
+    color: #777;
+}
+
+.input-group:focus-within {
+    border-color: #667eea;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+}
+
+.eye {
+    cursor: pointer;
+    display: flex;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #5266d5;
+}
+
+button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.message {
+    text-align: center;
+    margin-top: 18px;
+    color: #444;
+    font-size: 14px;
+}
+
+.switch {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #777;
+}
+
+.switch span {
+    color: #667eea;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.success-card {
+    text-align: center;
+}
+
+.success-card p {
+    margin: 15px 0;
+    color: #666;
+}
+
+.success-icon {
+    font-size: 35px;
+    color: green;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 480px) {
+    .login-card {
+        padding: 28px 20px;
+    }
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #E9F0EB;
+    color: #202B26;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+/* Login Card */
+
+.login-card {
+    background: #FFFFFF;
+    width: 100%;
+    max-width: 430px;
+    padding: 42px;
+    border-radius: 18px;
+    box-shadow: 0 15px 45px rgba(30, 65, 48, 0.10);
+}
+
+/* Logo */
+
+.logo {
+    width: 58px;
+    height: 58px;
+    background: #176B55;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 22px;
+}
+
+/* Heading */
+
+h1 {
+    text-align: center;
+    color: #202B26;
+    margin-bottom: 10px;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.subtitle {
+    text-align: center;
+    color: #77847D;
+    margin-bottom: 32px;
+    font-size: 15px;
+}
+
+/* Input Fields */
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid #D8E1DA;
+    background: #FAFCFA;
+    padding: 15px;
+    border-radius: 9px;
+    margin-bottom: 19px;
+    color: #718078;
+    transition: 0.3s ease;
+}
+
+.input-group:focus-within {
+    border-color: #176B55;
+    box-shadow: 0 0 0 3px rgba(23, 107, 85, 0.10);
+    background: #FFFFFF;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    font-size: 15px;
+    color: #202B26;
+}
+
+.input-group input::placeholder {
+    color: #A0AAA4;
+}
+
+.eye {
+    cursor: pointer;
+    display: flex;
+}
+
+/* Main Button */
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: #176B55;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #10513F;
+    transform: translateY(-1px);
+}
+
+button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* Messages */
+
+.message {
+    text-align: center;
+    margin-top: 18px;
+    color: #176B55;
+    font-size: 14px;
+}
+
+/* Login / Register Switch */
+
+.switch {
+    text-align: center;
+    margin-top: 26px;
+    font-size: 14px;
+    color: #77847D;
+}
+
+.switch span {
+    color: #176B55;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.switch span:hover {
+    text-decoration: underline;
+}
+
+/* Success Screen */
+
+.success-card {
+    text-align: center;
+}
+
+.success-card p {
+    margin: 15px 0;
+    color: #77847D;
+}
+
+.success-icon {
+    font-size: 38px;
+    color: #176B55;
+    margin-bottom: 15px;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 480px) {
+    .login-card {
+        padding: 30px 22px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+}
